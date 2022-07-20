@@ -11,9 +11,7 @@ int main () {
 int x, y, w, students, strikes; 
 string name, lastname;
 
-cout << "Welcome to the curve machine!" << endl; 
-cout << "What would you like to do?" << endl; 
-cout << "To curve press 1 to quit press 2: ";
+cout << "Welcome to the curve machine!\nWhat would you like to do?\nTo curve press 1 to quit press 2: ";
 cin >> y;
 
 if (y == 2) 
@@ -21,7 +19,7 @@ if (y == 2)
 return 0;
 
 cout << "Great, Enter the class size: ";
-cin >> students;                            // Sets limit for while loop 
+cin >> students;                                              // Sets limit for while loop 
 cout << "Thanks! Please enter the highest score: ";
 cin >> w;
 cout << "The highest score in the class was " << w << "." << endl;
