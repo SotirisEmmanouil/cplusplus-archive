@@ -11,7 +11,7 @@ int main () {
 int x, y, w, students, strikes; 
 string name, lastname;
 
-cout << "Welcome to the curve machine!\nWhat would you like to do?\nTo curve press 1 to quit press 2: ";
+cout << "Welcome to the curve machine!\nWhat would you like to do?\nTo curve press 1 to quit press 2: " << endl;
 cin >> y;
 
 if (y == 2) 
