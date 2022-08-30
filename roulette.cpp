@@ -21,10 +21,10 @@ cin >> balance;
 
 roulette:
 cout << "Enter the type of bet you want to do and the bet amount: "<< endl;
-  cin >> decider >> bet1;
-    if(bet1 > balance) {
-
-cout<< "Sorry bet exceeds balance! Enter new bet" << endl;
+cin >> decider >> bet1;
+ 
+if(bet1 > balance) {
+      cout<< "Sorry bet exceeds balance! Enter new bet" << endl;
       goto roulette;
 
      }
@@ -128,8 +128,3 @@ cin >> decider;
               return 0;
 
 }
-
-   
-    
-    
-    
