@@ -6,4 +6,4 @@ A C++ command line roulette game that utlizes randomized results and probability
 
 ### curve.cpp
 
-A small C++ program that curves grades by calculating the difference bewtween the highest class grade and 100, and proceeding to add the difference to all scores. The user has the option to enter the student's first and last name so as to keep track of whose score is being curved.
+A small C++ program that I created as practice for my midterm exam while taking CS111. The program curves grades by calculating the difference bewtween the highest class grade and 100, and proceeding to add the difference to all scores. The user has the option to enter the student's first and last name so as to keep track of whose score is being curved.
