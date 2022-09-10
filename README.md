@@ -1,5 +1,5 @@
 # My C++ Archive
-## A collection of some of the C++ programs I've created and worked in and outside of class.
+## A collection of some of the C++ programs I've created and worked on, in and outside of class.
 
 ### Rat.cpp
 
