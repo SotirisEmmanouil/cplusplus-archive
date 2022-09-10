@@ -15,7 +15,7 @@ int d;
 
 public:
 
-Rat(){                              //no paremeter RAT constructor which automatically constructs a RAT with 0 as numerator and 1 as the denominator 
+Rat(){                              //no parameter RAT constructor which automatically constructs a RAT with 0 as numerator and 1 as the denominator 
 n=0;  
 d=1;  
 }
