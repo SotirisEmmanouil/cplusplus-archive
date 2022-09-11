@@ -10,8 +10,8 @@ A C++ command line roulette game that utlizes randomized results and probability
 
 ### 8Queens2DArray.cpp 
 
-
-
+A solution to the 8 of Queens problem using a 2D array to mimic a chess Board and goto statements to implement backtracking, 
+and iteration through the rows and columns. This program was created while taking CS211 "Object Oriented Programming in C++" with  Dr.Jerry Waxman in the FALL 2021 semester.
 
 ### curve.cpp
 
