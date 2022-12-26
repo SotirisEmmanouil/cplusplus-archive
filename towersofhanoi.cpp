@@ -29,7 +29,7 @@ int main() {
                 if ( n % 2  ==  0 )                     // if the rings are even
                 {   
                         
-                  while ( t[1].size() < (n+1) ) {         //while there are still towers to move 
+                  while ( t[1].size() < (n+1) ) {                         //while there are still towers to move 
             
 cout << "move:" << ++move << " Move candidate " << candidate;
                         cout << " from tower " << (char) (from + 'A');
@@ -37,16 +37,16 @@ cout << "move:" << ++move << " Move candidate " << candidate;
 
                         t[to].push_back(t[from].back());
                         t[from].pop_back();
-                        if (t[(to+2)%3].back() < t[(to+1)%3].back())          // determine the "from" tower
+                        if (t[(to+2)%3].back() < t[(to+1)%3].back())                // determine the "from" tower
                                 from = (to + 2)%3;
                         else
                                 from = (to + 1)%3;
 
-                        if (t[(from)%3].back() < t[(from+2)%3].back())             //determine the "to" tower 
+                        if (t[(from)%3].back() < t[(from+2)%3].back())              //determine the "to" tower (modulo is needed to go around
                                 to = (from + 2)%3;
                         else
                                 to = (from + 1)%3;
-                        candidate = t[from].back();
+                        candidate = t[from].back();                                   // set candidate (ring to move)
 }
                         return 0;
                         
