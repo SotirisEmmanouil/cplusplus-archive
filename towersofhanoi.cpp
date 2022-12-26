@@ -42,7 +42,7 @@ cout << "move:" << ++move << " Move candidate " << candidate;
                         else
                                 from = (to + 1)%3;
 
-                        if (t[(from)%3].back() < t[(from+2)%3].back())              //determine the "to" tower (modulo is needed to go around
+                        if (t[(from)%3].back() < t[(from+2)%3].back())              //determine the "to" tower (modulo is needed to go around)
                                 to = (from + 2)%3;
                         else
                                 to = (from + 1)%3;
@@ -50,7 +50,8 @@ cout << "move:" << ++move << " Move candidate " << candidate;
 }
                         return 0;
                         
-                }else {                                                                 //if the total numbers of rings are odd 
+                }   
+                  else {                                                                 //if the total numbers of rings are odd 
                                 
                   while ( t[1].size() < ( n+1 )   ) {
                         cout << "move:" << ++move << " Move candidate " << candidate;
@@ -63,12 +64,10 @@ cout << "move:" << ++move << " Move candidate " << candidate;
 
 else
                                 from = ( to + 2 )%3;
-                        cout << "from = " << from << endl;
                         if (t[(from)%3].back()  <  t[(from+1)%3].back())
                                 to = (from + 1)%3;
                         else
                                 to = (from + 2)%3;
-                        cout << "to = " << to <<endl;
                         
                         candidate = t[from].back();
                         }
