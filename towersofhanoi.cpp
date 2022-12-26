@@ -37,12 +37,12 @@ cout << "move:" << ++move << " Move candidate " << candidate;
 
                         t[to].push_back(t[from].back());
                         t[from].pop_back();
-                        if (t[(to+2)%3].back() < t[(to+1)%3].back())          // if there are more rings, change to tower
+                        if (t[(to+2)%3].back() < t[(to+1)%3].back())          // determine the "from" tower
                                 from = (to + 2)%3;
                         else
                                 from = (to + 1)%3;
 
-                        if (t[(from)%3].back() < t[(from+2)%3].back())             
+                        if (t[(from)%3].back() < t[(from+2)%3].back())             //determine the "to" tower 
                                 to = (from + 2)%3;
                         else
                                 to = (from + 1)%3;
