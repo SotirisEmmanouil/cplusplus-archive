@@ -1,4 +1,4 @@
-/* Towers of Hanoi puzzle solver using vector data structure implementation. Works for both even and odd number of rings. Created while taking CS211 
+/* Towers of Hanoi puzzle solver using vector data structure implementation. Works for both even and odd number of rings. Created while taking CSCI211 
 "Object Oriented Programming in C++" with Dr.Jerry Waxman in the Fall 2021 semester. 
 */
 
