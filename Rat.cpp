@@ -1,6 +1,6 @@
 /* A class for Rational Numbers. This class has constructors which create rational numbers in the form of fractions, arithmetic operators
 to perform different arithemtic operations on the RATS, and a simplification function to simplify the RATS. This program was built 
-while taking CS211 "Object Oriented Programming in C++" with Dr. Jerry Waxman. 
+while taking CSCI211 "Object Oriented Programming in C++" with Dr. Jerry Waxman. 
 */
 
 #include <iostream>
