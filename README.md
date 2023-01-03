@@ -11,24 +11,23 @@ A C++ command line roulette game that utlizes randomized results and probability
 
 ### towersofhanoi.cpp
 
-Towers of Hanoi puzzle solver using vector data structure implementation. Works for both even and odd number of rings. Created while taking CSCI211 
+Towers of Hanoi puzzle solver using vector data structure implementation. Works for both even and odd number of rings. Created while taking CSCI 211 
 "Object Oriented Programming in C++" with Dr.Jerry Waxman in the Fall 2021 semester. 
 
 
 ### 8Queens2DArray.cpp 
 
 A solution to the 8 of Queens problem using a 2D array to mimic a chess Board and goto statements to implement backtracking, 
-and iteration through the rows and columns. This program was created while taking CSCI211 "Object Oriented Programming in C++" with  Dr.Jerry Waxman in the Fall 2021 semester.
+and iteration through the rows and columns. This program was created while taking CSCI 211 "Object Oriented Programming in C++" with  Dr.Jerry Waxman in the Fall 2021 semester.
 
 ### curve.cpp
 
-A small C++ program that I created as practice for my midterm exam while taking CSCI111. The program curves grades by calculating the difference bewtween the highest class grade and 100, and proceeding to add the difference to all scores. The user has the option to enter the student's first and last name so as to keep track of whose score is being curved.
+A small C++ program that I created as practice for my midterm exam while taking CSCI 111. The program curves grades by calculating the difference bewtween the highest class grade and 100, and proceeding to add the difference to all scores. The user has the option to enter the student's first and last name so as to keep track of whose score is being curved.
 
 ### quiz1.cpp
 
-A small C++ program I created while in Professor Gerald Landau's CSCI211 lab section. This program was assigned as a quick quiz. The program receives the student's name, four test grades, stores them in an array, calculates the average of the stored array entries, and prints the average along with the students name.  
+A small C++ program I created while in Professor Gerald Landau's CSCI 211 lab section. This program was assigned as a quick quiz. The program receives the student's name, four test grades, stores them in an array, calculates the average of the stored array entries, and prints the average along with the students name.  
 
+###integrate.cpp
 
-
-
- 
+A program that implements integration using a function pointer completed while taking CSCI 211.
