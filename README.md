@@ -26,7 +26,7 @@ A small C++ program that I created as practice for my midterm exam while taking 
 
 ### quiz1.cpp
 
-A small C++ program I created while in Professor Gerald Landau's CSCI 211 lab section. This program was assigned as a quick quiz. The program receives the student's name, four test grades, stores them in an array, calculates the average of the stored array entries, and prints the average along with the students name.  
+A small C++ program I created while taking Professor Gerald Landau's CSCI 211 lab section. This program was assigned as a quick quiz. The program receives the student's name, four test grades, stores them in an array, calculates the average of the stored array entries, and prints the average along with the students name.  
 
 ### integrate.cpp
 
