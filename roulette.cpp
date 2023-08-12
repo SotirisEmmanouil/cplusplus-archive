@@ -1,4 +1,4 @@
-/* Created by Sotiris Emmanouil on 8/3/22. This C++ program simulates a roulette that one would find in a typical casino. It utlizies the "cstdlib" and 
+/* Created by Sotiris Emmanouil on 8/3/22. This C++ program simulates a roulette that one would find in a typical casino. It utilizes the "cstdlib" and 
 "ctime" libraries to mimic the randomness that would occur when spinning a physical roulette.
 */
 
